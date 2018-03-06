@@ -12,7 +12,6 @@ with open(path,'r') as f:
 
 old_hash = l[0]
 
-#os.system("wget http://releases.ubuntu.com/17.10/ubuntu-17.10-desktop-amd64.iso -P /home/swapnil/Desktop/U_Mirror/versions/")
 os.system("wget http://releases.ubuntu.com/17.10/MD5SUMS -P /home/swapnil/Desktop/U_Mirror/versions/17/new_MD5SUM/")
 
 path1 = "/home/swapnil/Desktop/U_Mirror/versions/17/new_MD5SUM/MD5SUMS"
