@@ -26,7 +26,6 @@ with open(path,'r') as f:
 
 new_hash = l1[0]
 
-print 'till here'			
 os.system("openssl dgst -md5 "+p+"/ubuntu-17.10-desktop-amd64.iso > "+ p +"/MD5_cross_check.txt")
 
 
@@ -45,8 +44,6 @@ md_cross_check = l2[1]
 #if old != newm and old != md :
 #	os.system("wget http://releases.ubuntu.com/17.10/ubuntu-17.10-desktop-amd64.iso -P /home/swapnil/Desktop/U_Mirror/versions/17/")
 #	os.system("wget http://releases.ubuntu.com/17.10/MD5SUMS -P /home/swapnil/Desktop/U_Mirror/versions/17/")
-
-print 'till hererererere'
 
 if old_hash != new_hash:
 	os.system("wget http://releases.ubuntu.com/17.10/ubuntu-17.10-desktop-amd64.iso -P"+ p+"/")
